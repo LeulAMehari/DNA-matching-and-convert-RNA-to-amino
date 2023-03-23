@@ -4,8 +4,8 @@
 
 import sys
 len_str = 0
-dna_sequence = input().upper()              # the .upper method conevrts all elemnts to uppercase.
-dna_sequence2=input().upper()
+dna_sequence = input("Enter a DNA sequence:     ").upper()              # the .upper method conevrts all elemnts to uppercase.
+dna_sequence2=input("Enter a DNA sequence:     ").upper()
 dna = dna_sequence + dna_sequence2
 dna = list(dna.split())
 match = 0
